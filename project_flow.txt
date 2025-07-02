@@ -1,0 +1,19 @@
+1. Create repo, clone it in local
+2. Create a virtual environment named 'capstone2' - conda create -n capstone2 python=3.10
+3. Activate the virtual environment - conda activate capstone2
+4. copy the provided requirements.txt file and do "pip install -r requirements.txt"
+5. Create a GROQ api key from -> "https://console.groq.com/keys"
+6. Add .env -> GROQ_API_KEY=XXXXXXXXXXXXXXXXXXXXXX
+7. Add utils, lib, data dir and files within.
+8. Add app.py inside main/ and -> "streamlit run main/app.py"
+9. Add Dockerfile and cicd pipeline
+10. Add below secrets and var to github actions-
+    AWS_ACCESS_KEY_ID
+    AWS_SECRET_ACCESS_KEY
+    AWS_REGION
+    ECR_REPO
+
+
+
+
+resumeanalyzer-repo
